@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Mounisha D</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Contact information for Mounisha D">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html">
+        <div class="logo">MD</div>
+        <div class="name">MOUNISHA D</div>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p class="small">I’m open to internships, collaborations and freelance work — feel free to reach out.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form class="card contact-form" name="contact" method="post" onsubmit="return false;">
+          <div class="form-field">
+            <label class="small">Your Name</label>
+            <input class="input" name="name" placeholder="Full name" />
+          </div>
+
+          <div class="form-field">
+            <label class="small">Email</label>
+            <input class="input" name="email" type="email" placeholder="you@example.com" />
+          </div>
+
+          <div class="form-field">
+            <label class="small">Message</label>
+            <textarea class="textarea" name="message" placeholder="Write a short message..."></textarea>
+          </div>
+
+          <div class="form-field">
+            <button class="btn" type="submit">Send message</button>
+            <div class="form-note small">Note: This demo form does not send email — it's a placeholder for a real backend.</div>
+          </div>
+        </form>
+
+        <aside class="card">
+          <h3>Contact Details</h3>
+          <dl class="profile-meta">
+            <dt>Email</dt><dd><a href="mailto:dmounisha2006@gmail.com">dmounisha2006@gmail.com</a></dd>
+            <dt>Phone</dt><dd><a href="tel:+917845646187">+91 78456 46187</a></dd>
+            <dt>Location</dt><dd>Coimbatore, Tamil Nadu</dd>
+            <dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/mounisha-d-cse-1b045a294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">Mounisha - LinkedIn</a></dd>
+          </dl>
+
+          <h3 style="margin-top:14px">Availability</h3>
+          <p class="small">Open to internships, freelance projects and collaborations. Available to start immediately for the right opportunity.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container small">© 2025 Mounisha D</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
